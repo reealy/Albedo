@@ -1,2 +1,2 @@
-# albedo
+# Albedo
 discord bot
