@@ -6,7 +6,7 @@
   "author": "reealy_ <van.pham2809@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf build tsconfig.tsbuildinfo && tsc",
+    "build": "tsc",
     "start": "yarn run build && node build/main.js",
     "dev": "tsc-watch --onSuccess \"node ./build/main.js\"",
     "clean": "rimraf build && rimraf tsconfig.tsbuildinfo && rimraf yarn-error.log"
