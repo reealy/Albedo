@@ -1,6 +1,7 @@
 import { Client, Intents } from "discord.js";
 import { config } from "./config";
 
+console.log("Starting bot...");
 // Create a new Discord client
 const client = new Client({
     intents: [
@@ -11,7 +12,7 @@ const client = new Client({
 });
 
 client.once("ready", () => {
-    console.log("Ready!");
+    console.log("Bot is ready!");
 });
 
 // Login to Discord with your app's token
