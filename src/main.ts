@@ -1,7 +1,6 @@
 import { Client, Intents } from "discord.js";
 import { config } from "./config";
 
-console.log("Connecting to Discord...");
 // Create a new Discord client
 const client = new Client({
     intents: [
