@@ -27,6 +27,6 @@ jobs:
     - name: Install dependencies
       run: npm ci
     - name: Build 
-      run: npm run build
+      run: npm run build --if-present
     - name: Test
-      run: echo "Tests are disabled"
+      run: npm run test
