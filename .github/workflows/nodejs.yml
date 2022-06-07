@@ -23,10 +23,10 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'yarn'
+        cache: 'npm'
     - name: Install dependencies
-      run: yarn install --immutable --immutable-cache --check-cache
+      run: npm ci
     - name: Build 
-      run: yarn run build
+      run: npm run build
     - name: Test
       run: echo "Tests are disabled"
