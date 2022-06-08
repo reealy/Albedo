@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "yarn run build && node build/main.js",
+    "start": "npm run build && node build/main.js",
     "test": "jest --coverage",
     "dev": "tsc-watch --onSuccess \"node ./build/main.js\"",
     "clean": "rimraf build coverage tsconfig.tsbuildinfo yarn-error.log"
