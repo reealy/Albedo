@@ -7,7 +7,7 @@
       {
         "type": "node",
         "request": "launch",
-        "name": "Pagination",
+        "name": "Albedo",
         "args": [
           "${workspaceRoot}/src/main.ts"
         ],
